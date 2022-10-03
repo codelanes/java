@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    }
+
+    body{
+        margin: 0px;
+        background-color: #023047;
+        font-size: 14px;
+        font-family: Papyrus, sans-serif;
+        }
+
+        .header{
+            position: fixed;
+            z-index: 2;
+            width: 100%;
+            padding: 10px 20px 10px 20px;
+            background-color: black;
+            color: white;
+            }
+	
+	#name{
+	font-size: 20px;
+	}
+
+
+	h1,h2{
+		color: #023047;
+	}
+           
+  	a{
+		text-decoration: none;
+
+	}      
+        .container{
+		width: 80%;
+		background-color: white;
+		padding: 50px 20px;
+		clear: both;
+		margin: auto;
+            }
+
+
+
+  @media screen and (max-width: 768px){
+   h1,h2{
+	font-size: 14px;
+
+	} 
+
+
+.container{
+	width: 100%;
+	background-color: white;
+	clear: both;
+	margin: auto;
+	}
+
+video {
+	width: 100% !important;
+	height: auto !important;
+
+
+}
+	
+}
+
+
+
+
+        
